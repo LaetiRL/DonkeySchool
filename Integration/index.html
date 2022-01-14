@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ce site web heberge mon portfolio. C'est un condensé de mon travail et de ma personne pour vous montrer qui je suis en tant que développeur web">
   <title>Mon portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_mobile.css" media="screen and (max-width:600px)">
+  <link rel="stylesheet" href="style_desktop.css" media="screen and (min-width:601px)">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <h1 id="hautdepage">Mon Portfolio</h1>
     <nav>
       <div class="dropdown">
-        <a href="#projets">Projets</a>
+        <h2>Projets</h2>
         <div class="dropdown-content">
           <a href="#projet1">Projet 1</a>
           <a href="#projet2">Projet 2</a>
@@ -26,10 +27,10 @@
         <a href="#etudes">Études</a>
       </div>
       <div class="dropdown">
-        <a href="#articles">Articles</a>
+        <h2>Articles</h2>
         <div class="dropdown-content">
-          <a href="">Article 1</a>
-          <a href="">Article 2</a>
+          <a href="#article1">Article 1</a>
+          <a href="#article2">Article 2</a>
         </div>
       </div>
       <div>
@@ -49,7 +50,7 @@
       <hr>
     </section>
     <section>
-      <h2 id="projets">Projets realisés</h2>
+      <h2>Projets realisés</h2>
       <div id="projet1">
         <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Image projet 1" width="200"></a>
         <h3>Projet 1</h3>
@@ -103,15 +104,15 @@
       <hr>
     </section>
     <section>
-      <h2 id="articles">Articles</h2>
-      <article>
+      <h2>Articles</h2>
+      <article id="article1">
         <a href="img/cactus_g.jpg" target="_blank" class="hover-effect"><img src="img/cactus_g.jpg" alt="Image article 1" width="350" height="200"></a>
         <h3>Article 1</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam nobis accusamus necessitatibus molestias. Enim ad cupiditate aperiam? Debitis architecto fuga reiciendis dignissimos. Dolor vero repellendus ipsa, earum impedit neque?</p>
         <span>Lire</span>
         <span>Commentaires</span>
       </article>
-      <article>
+      <article id="article2">
         <a href="img/cactus_g.jpg" target="_blank" class="hover-effect"><img src="img/cactus_g.jpg" alt="Image article 2" width="350" height="200"></a>
         <h3>Article 2</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam nobis accusamus necessitatibus molestias. Enim ad cupiditate aperiam? Debitis architecto fuga reiciendis dignissimos. Dolor vero repellendus ipsa, earum impedit neque?</p>
