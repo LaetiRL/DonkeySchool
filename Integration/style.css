@@ -43,3 +43,7 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+a { 
+  color : red;
+}
