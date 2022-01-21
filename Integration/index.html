@@ -13,136 +13,139 @@
 
 <body>
   <header class="headerflex">
-    <h1 id="hautdepage">Mon Portfolio</h1>
-    <nav class="navflex">
-      <div class="dropdown">
-        <h2>Projets</h2>
-        <div class="dropdown-content">
-          <a href="#projet1">Projet 1</a>
-          <a href="#projet2">Projet 2</a>
-          <a href="#projet3">Projet 3</a>
-        </div>
-      </div>
+    <h1 id="hautdepage">Portfolio</h1>
+    <nav class="navflex" id="burger">
+      <input type="checkbox" id="burger_checkbox"/>
+      <label for="burger_checkbox"></label>
       <div>
-        <a href="#etudes" class="navflex">Études</a>
-      </div>
-      <div class="dropdown">
-        <h2>Articles</h2>
-        <div class="dropdown-content">
-          <a href="#article1">Article 1</a>
-          <a href="#article2">Article 2</a>
-        </div>
-      </div>
-      <div>
-        <a href="#contact" class="navflex">Contact</a>
+        <a href="#cv">CV</a>
+        <a href="#projets">Projets</a>
+        <a href="#articles">Articles</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
   <main>
     <section>
-      <div class="imgfluide">
-        <a href="img/cactus_g.jpg" target="_blank" class="hover-effect imgflex"><img src="img/cactus_g.jpg" alt="Image présentation"></a>
-        <h3 class="h_over">Nom Prénom</h3>
+      <div  class="about-me">
+        <div class="name">
+          <span class="spanintro-1">Hi, I'm</span>
+          <span class="spanintro-2">Laetitia</span>
+          <span class="spanintro-3">Developpeur Web & Mobile Junior</span>
+        </div>
+        <div>
+          <a href="img/profile.png" target="_blank" class="imgflex"><img src="img/profile.png" alt="Photo profile" class="img-desktop-hide"></a>
+        </div>
+    </div>
+    <div>
+      <video class="video img-desktop-hide" autoplay loop muted>
+        <source src="video/Particles.mp4" type="video/mp4">
+      </video>
+    </div>
+    </section>
+    <section class="main-color">
+      <img src="img/deco_header.png" alt="" class="img-desktop-hide">
+      <div class="img-intro">
+        <img src="img/photomoi_mobile.png" alt="Autoportrait"  class="img-mobile-hide">
+      </div>
+      <h3 id="cv">CV</h3>
+      <div class="cv-orientflex">
+        <div>
+          <div>
+            <span>Graphiste</span>
+          </div>
+          <div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae eos aut quam nam beatae, blanditiis repellat laudantium iste vitae illo omnis exercitationem eum, amet commodi enim fuga sit cumque.</p>
+          </div>
+        </div>
+        <div>
+          <img src="img/photomoi.png" alt="Autoportrait" class="img-desktop-hide">
+        </div>
+        <div>
+          <div>
+            <span>Web Dev</span>
+          </div>
+          <div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quis unde architecto voluptatum velit consequatur autem asperiores ea corrupti fuga dicta quae officiis quo culpa, consectetur soluta dolores neque nostrum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="button-cv-dflex">
+        <button type="submit" class="button-cv">Voir le CV</button>
       </div>
     </section>
-    <section class="orientflex">
-      <h3>Projets realisés</h3>
+    <section class="orientflex main-color">
+      <h3 id="projets">Projets realisés</h3>
       <div>
-        <div id="projet1">
+        <div>
           <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Image projet 1" width="200"></a>
           <h4>Projet 1</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque beatae tempore voluptatem rerum consequatur eos nulla distinctio delectus. Laboriosam nostrum sunt vel ex enim necessitatibus id repellat impedit repudiandae non?</p>
           <span>En savoir plus</span>
         </div>
-        <div id="projet2">
+        <div>
           <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Image projet 2" width="200"></a>
           <h4>Projet 2</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque beatae tempore voluptatem rerum consequatur eos nulla distinctio delectus. Laboriosam nostrum sunt vel ex enim necessitatibus id repellat impedit repudiandae non?</p>
           <span>En savoir plus</span>
         </div>
-        <div id="projet3">
+        <div>
           <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Image projet 3" width="200"></a>
           <h4>Projet 3</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque beatae tempore voluptatem rerum consequatur eos nulla distinctio delectus. Laboriosam nostrum sunt vel ex enim necessitatibus id repellat impedit repudiandae non?</p>
           <span>En savoir plus</span>
         </div>
+        <div>
+          <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Image projet 3" width="200"></a>
+          <h4>Projet 4</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque beatae tempore voluptatem rerum consequatur eos nulla distinctio delectus. Laboriosam nostrum sunt vel ex enim necessitatibus id repellat impedit repudiandae non?</p>
+          <span>En savoir plus</span>
+        </div>
       </div>
     </section>
-    <section class="orientflex">
-      <h3 id="etudes">Études</h3>
-      <div>
-        <a href="img/cactus_p.png" target="_blank" class="hover-effect"><img src="img/cactus_p.png" alt="Autoportrait" width="150"></a>
-      </div>
-      <div>
-        <ul>
-          <li>Nom</li>
-          <li>Prénom</li>
-          <li>Age</li>
-          <li>Adresse email</li>
-          <li>Numéro de téléphone</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Date</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae fugit porro repellendus temporibus illo libero eos in provident possimus odit, delectus ratione non corrupti commodi ipsa laudantium? Corporis, dolore?</p>
-      </div>
-      <div>
-        <h4>Date</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae fugit porro repellendus temporibus illo libero eos in provident possimus odit, delectus ratione non corrupti commodi ipsa laudantium? Corporis, dolore?</p>
-      </div>
-      <div>
-        <h4>Date</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae fugit porro repellendus temporibus illo libero eos in provident possimus odit, delectus ratione non corrupti commodi ipsa laudantium? Corporis, dolore?</p>
-      </div>
-      <div>
-        <h4>Date</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae fugit porro repellendus temporibus illo libero eos in provident possimus odit, delectus ratione non corrupti commodi ipsa laudantium? Corporis, dolore?</p>
-      </div>
-    </section>
-    <section class="orientflex">
-      <h3>Articles</h3>
-      <div>
-        <article id="article1">
+    <section class="main-color">
+      <h3 id="articles">Articles</h3>
+      <div class="article-orientflex">
+        <article>
           <a href="img/cactus_g.jpg" target="_blank" class="hover-effect"><img src="img/cactus_g.jpg" alt="Image article 1" width="350" height="200"></a>
           <h4>Article 1</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam nobis accusamus necessitatibus molestias. Enim ad cupiditate aperiam? Debitis architecto fuga reiciendis dignissimos. Dolor vero repellendus ipsa, earum impedit neque?</p>
-          <span>Lire</span>
-          <span>Commentaires</span>
         </article>
-        <article id="article2">
+        <article>
           <a href="img/cactus_g.jpg" target="_blank" class="hover-effect"><img src="img/cactus_g.jpg" alt="Image article 2" width="350" height="200"></a>
           <h4>Article 2</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam nobis accusamus necessitatibus molestias. Enim ad cupiditate aperiam? Debitis architecto fuga reiciendis dignissimos. Dolor vero repellendus ipsa, earum impedit neque?</p>
-          <span>Lire</span>
-          <span>Commentaires</span>
         </article>
       </div>
     </section>
-    <section class="orientflex">
+    <section class="main-color">
       <h3 id="contact">Contact</h3>
       <form>
         <ul>
           <li>
             <label for="fullnameinput">Nom et Prénom</label>
-            <input type="text" name="fullname" id="fullnameinput">
+            <input type="text" name="fullname" id="fullnameinput" required placeholder=" Votre Nom et Prénom">
           </li>
           <li>
             <label for="emailinput">E-mail</label>
-            <input type="text" name="email" id="emailinput">
+            <input type="text" name="email" id="emailinput" required placeholder=" Votre e-mail">
           </li>
           <li>
             <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea name="message" id="message" cols="30" rows="8" required placeholder=" Votre message"></textarea>
           </li>
           <li class="flexbutton">
-            <button type="submit">Envoyer</button>
+            <button type="submit" class="buttonform">Envoyer</button>
           </li>
         </ul>
       </form>
     </section>
+    <div class="fixedbutton">
+      <a href="#hautdepage"><img src="img/icon_gotop.png" alt="icone pour retourner au menu"></a>
+    </div>
   </main>
   <footer>
-    <a href="#hautdepage">monportfolio.com</a>
+    <span>monportfolio.com</span>
   </footer>
 </body>
 </html>
